@@ -130,12 +130,27 @@ body {
 }
 
 .header-container {
-    background: transparent linear-gradient(135deg, #1E5799 0%, #2989D8 50%, #207CCA 51%, #7DB9E8 100%) repeat scroll 0% 0%;
+  background: transparent linear-gradient(135deg, #1E5799 0%, #2989D8 50%, #207CCA 51%, #7DB9E8 100%) repeat scroll 0% 0%;
 }
 .banner {
-margin-top: 200px;
+  margin-top: 200px;
 }
 
 .banner img {
-width: 100%;
+  width: 100%;
+}
+.search {
+  float: right;
+  border-radius: 4px;
+  border: 1px solid;
+  margin-top: -42px;
+  width: 250px;
+  padding: 7px;
+  background-image: url('/images/search.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.logo {
+
+padding: 7px 0;
 }
