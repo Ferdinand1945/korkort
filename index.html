@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Körkortscentralen - Den skönaste vägen till ditt körkort... Allt du behöver för att klara teoriprovet för B-körkort!</title>
 
     <!-- Bootstrap core CSS -->
     <head>
@@ -20,6 +20,8 @@
       <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
       <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
       <script src="/js/ie-emulation-modes-warning.js"></script>
+      <script src="/js/bootstrap.min.js"></script>
+      <script src="/js/bootstrap.js"></script>
 
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!--[if lt IE 9]>
@@ -36,6 +38,10 @@
     <body>
    <div class="navbar-wrapper">
         <div class="container">
+          <div class="register-login">
+          <a href="">Register</a> |
+          <a href="">Logga in</a>
+            </div>
            <div class="logo">    
             <img src="images/Korkort_logo4.png">
           </div>
@@ -53,11 +59,11 @@
               <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Hem</a></li>
-                  <li><a href="#about">Kurser</a></li>
+                  <li><a href="#about">Om oss</a></li>
                   <li><a href="#about">Support</a></li>
                   <li><a href="#about">Nyheter</a></li>
-                  <li><a href="#contact">Kontakta oss</a></li>
-                  <li class="dropdown">
+                  <li><a href="#contact">Kontakt</a></li>
+              <!--    <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       <li><a href="#">Action</a></li>
@@ -68,7 +74,7 @@
                       <li><a href="#">Separated link</a></li>
                       <li><a href="#">One more separated link</a></li>
                     </ul>
-                  </li>
+                  </li>-->
                 </ul>
               </div>
               <input type="text" class="search">
@@ -87,12 +93,13 @@
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-          <div class="item active">
-
-            <div class="container banner">
-              <div class="responsivebanner-container">
-              <img class="first-slide" src="images/banner.jpg" alt="First slide">
-                </div>
+     <div class="item active">
+          
+      <div class="container banner">
+      <div class="responsivebanner-container">
+      <img src="images/banner.jpg" title="">
+      </div>	
+      </div>
               <div class="carousel-caption">
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
               </div>
