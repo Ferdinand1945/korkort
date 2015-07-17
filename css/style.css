@@ -32,7 +32,6 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -49,7 +48,6 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -130,4 +128,15 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+.header-container {
+    background: transparent linear-gradient(135deg, #1E5799 0%, #2989D8 50%, #207CCA 51%, #7DB9E8 100%) repeat scroll 0% 0%;
+}
+.banner {
+margin-top: 80px;
+}
+
+.banner img {
+width: 100%;
 }
