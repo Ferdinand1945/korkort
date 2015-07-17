@@ -167,7 +167,7 @@ body {
   width: 100% !important;
   margin: 0px auto;
   background: transparent url("/images/bottom-slide.png") no-repeat scroll 50% 100% / 100% auto;
-  padding: 0px 0px 73px;
+  padding: 0px 0px 70px;
   z-index: 9;
 }
 .fullwidthbanner-container::before, .responsivebanner-container::before {
@@ -178,10 +178,10 @@ body {
     background: transparent #FFF none repeat scroll 0px 0px;
     content: "";
     display: block;
-    height: 428px;
+    height: 417px;
     position: absolute;
     top: 0px;
-    width: 58px;
+    width: 63px;
 }
 .register-login {
   color: #fff;
@@ -221,5 +221,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', end
 
 .fullwidthbanner-container::after, .responsivebanner-container::after {
     background: transparent url("/images/right-slide.png") no-repeat scroll 0px 0px;
-    right: 800px;
+    right: 0px;
 }
