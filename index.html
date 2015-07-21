@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/unslider.js"></script>
 
     <title>Körkortscentralen - Den skönaste vägen till ditt körkort... Allt du behöver för att klara teoriprovet för B-körkort!</title>
 
@@ -36,6 +38,7 @@
     <!-- NAVBAR
 ================================================== -->
     <body>
+      <header class="header-container">
       <div class="navbar-wrapper">
         <div class="container">
           <div class="register-login">
@@ -85,27 +88,37 @@
       </div>  
       <!-- Carousel
 ================================================== -->
-      <div id="myCarousel" class="carousel slide header-container" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
+    <div class="container banner">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
 
-            <div class="container banner">
-              <div class="responsivebanner-container">
-                <img src="images/banner.jpg" title="">
-              </div>	
-            </div>
-            <div class="carousel-caption">
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
+      <!-- Wrapper for slides -->
+        <div class="responsivebanner-container">
+      <div class="carousel-inner" role="listbox">
+      
+        <div class="item active">
+          
+          <img src="images/banner.jpg" alt="Chania">
+         
         </div>
+
+        <div class="item">
+          <img src="images/banner.jpg" alt="Chania">
+        </div>
+
+        <div class="item">
+          <img src="images/banner.jpg" alt="Flower">
+        </div>
+   </div>
       </div>
+
+      <!-- Left and right controls -->
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -114,124 +127,211 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-      </div><!-- /.carousel -->
+    </div>
 
-
+      </div>
+        </header><!-- /.carousel -->
     <!-- Marketing messaging and featurettes
 ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-
+<section class="pull-up">
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Du kan alltså alltid plugga körkortsteori - oavsett om du är hemma, i skolan eller på jobbet.
-            Uppdaterade körkortsfrågor När det kommer nya regler och vägmärken läggs de in omedelbart utan att du behöver göra något. Materialet är därför alltid det absolut senaste.</p>
+          <img class="img-circle" src="images/icon-1.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Teoriprov</h2>
+          <p>Finns över 1200 frågor som är utformade som det riktiga teoriprovet för B-körkort på Svenska, Engelska, Ryska, Spanska, Bosniska, Japanska, syriska med mera. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Gör kunskapsprov överallt
-            Logga in från alla datorer som har internet. Du kan alltså alltid plugga körkortsteori - åavsett om du är hemma, i skolan eller på jobbet, etc.
-            Slipp frågor du redan kan
-            Varje nytt teoritest du startar innehåller endast nya eller tidigare felaktigt besvarade körkortsfrågor.
+          <img class="img-circle" src="images/icon-2.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Övningsfrågor</h2>
+          <p>Träna på en elller flera kategorier. Plugga i din egen takt eller testa dina kunskaper med ett prov med 70 frågor på tid. 
           </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Frågor du svarar rätt på plockas nämligen bort automatiskt.
-            Detta gör att du utnyttjar materialet mycket effektivt - du går igenom frågorna systematiskt, får stor variation och slipper svara på enkla frågor som du redan visat att du kan.Skulle du klara alla teorifrågor kommer de att nollställas, vilket innebär att du gratis får tillbaka frågorna som tidigare plockats bort.
+          <img class="img-circle" src="images/icon-3.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Innehåller</h2>
+          <p>Hela teoriboken, 1200+ teorifrågor, Alla vägmärken med förklaring, Pedagogiskt skrivna frågor för snabbare inlärning, Enkel och snygg design och Ingen reklam... 
           </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-
-
+      
+      
       <!-- START THE FEATURETTES -->
+<hr class="section-divider">
+      <div class="yellow">
+      <div class="container section-m">
+         <div class="col-md-6">
+      <iframe width="500" height="375" src="https://www.youtube.com/embed/laZJbhRXXW4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+        <div class="col-md-6">
+       <h2>A good titulo</h2>
+          <hr class="section-divider">
+      <h3 class="text-style">Du kan alltså alltid plugga körkortsteori - oavsett om du är hemma, i skolan eller på jobbet.
+Uppdaterade körkortsfrågor När det kommer nya regler och vägmärken läggs de in omedelbart utan att du behöver göra något. Materialet är därför alltid det absolut senaste.
+Gör kunskapsprov överallt
+Logga in från alla datorer som har internet.</h3>
+       
+        </div>
 
-      <hr class="featurette-divider">
-      <h3>Top experts</h3>
-      <br>
-      <div class="row">
-        <div class="col-md-8">
+       </div>      </div>
+ <section class="riptide">
+   <div class="container section-m">
+  <h3 class="text-style">
+Slipp frågor du redan kan
+Varje nytt teoritest du startar innehåller endast nya eller tidigare felaktigt besvarade körkortsfrågor.
+Frågor du svarar rätt på plockas nämligen bort automatiskt.
+Detta gör att du utnyttjar materialet mycket effektivt - du går igenom frågorna systematiskt, får stor variation och slipper svara på enkla frågor som du redan visat att du kan.
+
+    </h3>  
+      </div>
+      
+        </section>
+      <section class="smoke">
+         <div class="container section-m">
+   <h3 class="text-style">
+       Skulle du klara alla teorifrågor kommer de att nollställas, vilket innebär att du gratis får tillbaka frågorna som tidigare plockats bort.
+Vilka språk finns teorifrågorna på?
+Svenska, Engelska, Ryska, Spanska, Bosniska, Japanska, syriska, etc. 
+       </h3></div>
+      
+      </section>
+      <hr class="section-divider"> <div class="pull-down">
+      <div class="col-md-6"><h3>Top experts</h3></div><div class="col-md-6"><h3>Testimonials</h3></div>
+     </div>
+   <div class="row">
+        <div class="col-md-6">
           <div class="col-md-2 img-experts">
             <div class="expert-image bordered-image">
               <img class="avatar" width="96px" src="http://themextemplates.com/demo/academy/wp-content/uploads/2013/02/avatar_1-96x96.jpg" />
             </div></div>
-          <div class="col-md-6">
+          <div class="col-md-8">
             <div class="expert-text">
               <h5>Roberto Hamond</h5>
-              <p>Project Manager  
-                Cras a neque diam. Aenean dapibus accumsan velit eget imperdiet. Quisque sapien neque, fermentum ac pharetra ac, iaculis a elit. Morbi tincidunt, lectus et dignissim pharetra, elit leo lacinia purus, eu porta. Aenean adipiscing, sed lacinia sapien tincidunt.</p>
+              <h6>Project Manager</h6>
+              <p>Cras a neque diam. Aenean dapibus accumsan velit eget imperdiet. Quisque sapien neque, fermentum ac pharetra ac, iaculis a elit. Morbi tincidunt.</p>
+            </div>
+          </div>   
+        </div>
+      
+       <div class="col-md-6">
+       <article class="testimonial">
+              <div class="col-md-2 testimonials-img">
+            <div class="testimonial-image">
+                <div class="bubble-image">
+                    <img class="attachment-small wp-post-image" width="270" height="270" alt="avatar_11" src="http://themextemplates.com/demo/academy/wp-content/uploads/2013/02/avatar_11.jpg"></img>
+                    <div class="substrate">
+                        <img alt="" src="http://themextemplates.com/demo/academy/wp-content/themes/academy/images/bgs/testimonial_bg.png"></img>
+                    </div>
+                </div>
+            </div></div>
+         <div class="col-md-8">
+            <div class="testimonial-text">
+                <p>
+ Cras a neque diam. Aenean dapibus accumsan velit eget imperdiet. Quisque sapien neque, fermentum ac pharetra ac, iaculis a elit.
+                </p>
+                <h6 class="author nomargin">
+                    Mary Springs
+                </h6>
+            </div></div>
+        </article>
+      </div>
+   
+    
+    </div>
+<br>
+  <br>
+
+   <div class="row">
+        <div class="col-md-6">
+          <div class="col-md-2 img-experts">
+            <div class="expert-image bordered-image">
+              <img class="avatar" width="96px" src="http://themextemplates.com/demo/academy/wp-content/uploads/2013/02/avatar_10-96x96.jpg" />
+            </div></div>
+          <div class="col-md-8">
+            <div class="expert-text">
+            <h5>Roberto Hamond</h5>
+              <h6>Project Manager</h6>
+              <p>Cras a neque diam. Aenean dapibus accumsan velit eget imperdiet. Quisque sapien neque, fermentum ac pharetra ac, iaculis a elit. Morbi tincidunt.</p>
 
             </div>
           </div>   
-        </div></div><br>
-
-      <div class="row">
-        <div class="col-md-8">
+        </div>
+      
+       <div class="col-md-6">
+       <article class="testimonial">
+              <div class="col-md-2 testimonials-img">
+            <div class="testimonial-image">
+                <div class="bubble-image">
+                    <img class="attachment-small wp-post-image" width="270" height="270" alt="avatar_11" src="http://themextemplates.com/demo/academy/wp-content/uploads/2013/02/avatar_27.jpg"></img>
+                    <div class="substrate">
+                        <img alt="" src="http://themextemplates.com/demo/academy/wp-content/themes/academy/images/bgs/testimonial_bg.png"></img>
+                    </div>
+                </div>
+            </div></div>
+         <div class="col-md-8">
+            <div class="testimonial-text">
+                <p>
+ Cras a neque diam. Aenean dapibus accumsan velit eget imperdiet. Quisque sapien neque, fermentum ac pharetra ac, iaculis a elit.
+                </p>
+                <h6 class="author nomargin">
+                    Mary Springs
+                </h6>
+            </div></div>
+        </article>
+      </div>
+   
+    
+    </div>
+<br>
+   <div class="row">
+        <div class="col-md-6">
           <div class="col-md-2 img-experts">
             <div class="expert-image bordered-image">
               <img class="avatar" width="96px" src="http://themextemplates.com/demo/academy/wp-content/uploads/2013/02/avatar_1-96x96.jpg" />
             </div></div>
-          <div class="col-md-6">
+          <div class="col-md-8">
             <div class="expert-text">
-              <h5>Roberto Hamond</h5>
-              <p>Project Manager  
-                Cras a neque diam. Aenean dapibus accumsan velit eget imperdiet. Quisque sapien neque, fermentum ac pharetra ac, iaculis a elit. Morbi tincidunt, lectus et dignissim pharetra, elit leo lacinia purus, eu porta. Aenean adipiscing, sed lacinia sapien tincidunt.</p>
+               <h5>Roberto Hamond</h5>
+              <h6>Project Manager</h6>
+              <p>
+                Cras a neque diam. Aenean dapibus accumsan velit eget imperdiet. Quisque sapien neque, fermentum ac pharetra ac, iaculis a elit. Morbi tincidunt.</p>
 
             </div>
           </div>   
         </div>
-      </div><br>
-      <div class="row">
-        <div class="col-md-8">
-          <div class="col-md-2 img-experts">
-            <div class="expert-image bordered-image">
-              <img class="avatar" width="96px" src="http://themextemplates.com/demo/academy/wp-content/uploads/2013/02/avatar_1-96x96.jpg" />
+      
+       <div class="col-md-6">
+       <article class="testimonial">
+              <div class="col-md-2 testimonials-img">
+            <div class="testimonial-image">
+                <div class="bubble-image">
+                    <img class="attachment-small wp-post-image" width="270" height="270" alt="avatar_11" src="http://themextemplates.com/demo/academy/wp-content/uploads/2013/02/avatar_12.jpg"></img>
+                    <div class="substrate">
+                        <img alt="" src="http://themextemplates.com/demo/academy/wp-content/themes/academy/images/bgs/testimonial_bg.png"></img>
+                    </div>
+                </div>
             </div></div>
-          <div class="col-md-6">
-            <div class="expert-text">
-              <h5>Roberto Hamond</h5>
-              <p>Project Manager  
-                Cras a neque diam. Aenean dapibus accumsan velit eget imperdiet. Quisque sapien neque, fermentum ac pharetra ac, iaculis a elit. Morbi tincidunt, lectus et dignissim pharetra, elit leo lacinia purus, eu porta. Aenean adipiscing, sed lacinia sapien tincidunt.</p>
-
-            </div>
-          </div>   
-        </div>
+         <div class="col-md-8">
+            <div class="testimonial-text">
+                <p>
+ Cras a neque diam. Aenean dapibus accumsan velit eget imperdiet. Quisque sapien neque, fermentum ac pharetra ac, iaculis a elit.
+                </p>
+                <h6 class="author nomargin">
+                    Mary Springs
+                </h6>
+            </div></div>
+        </article>
       </div>
+   
+    
+    </div>
 
 
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
 
       <hr class="featurette-divider">
 
@@ -239,12 +339,15 @@
 
 
       <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    
+    </div>
+</section><!-- /.container -->
+  <footer>
+    <div class="container">
+        <p class="pull-up"><a href="#" class="arrow"></a></p>
+        <div class="copyright"><p >&copy; 2015 Enforce AB. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p></div>
+      </div>
       </footer>
-
-    </div><!-- /.container -->
 
 
     <!-- Bootstrap core JavaScript
