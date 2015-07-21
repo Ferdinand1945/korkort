@@ -405,3 +405,16 @@ footer {
 .copyright a {
   color: #fff;
 }
+
+.top-fix {
+margin-top: 0px;
+}
+
+.color-green {
+color:#336600;
+}
+
+.medium-text {
+font-size: 18px;
+  font-style: italic;
+}
