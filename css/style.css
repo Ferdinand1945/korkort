@@ -173,19 +173,19 @@ body {
   padding: 0px 0px 70px;
   z-index: 9;
 }
-/*.fullwidthbanner-container::before, .responsivebanner-container::before {
-background: transparent url("/images/left-slide.png") no-repeat scroll 100% 0px;
-left: 0px;
+.responsivebanner-container::before {
+  background: transparent url("/images/left-slide.png") no-repeat scroll 100% 0px;
+  left: -60px;
 }
 .fullwidthbanner-container::before, .fullwidthbanner-container::after, .responsivebanner-container::before, .responsivebanner-container::after {
-background: transparent #FFF none repeat scroll 0px 0px;
-content: "";
-display: block;
-height: 417px;
-position: absolute;
-top: 0px;
-width: 63px;
-}*/
+  background: transparent #FFF none repeat scroll 0px 0px;
+  content: "";
+  display: block;
+  height: 420px;
+  position: absolute;
+  top: 0px;
+  width: 63px;
+}
 .register-login {
   color: #fff;
 }
@@ -229,10 +229,11 @@ width: 63px;
   color: #FFFFFF;
 }
 
-/*.fullwidthbanner-container::after, .responsivebanner-container::after {
-background: transparent url("/images/right-slide.png") no-repeat scroll 0px 0px;
-right: 0px;
-}*/
+.responsivebanner-container::after {
+  background: transparent url("/images/right-slide.png") no-repeat scroll 0px 0px;
+  right: -62px;
+}
+}
 .expert {
   width: 500px;
 }
@@ -377,12 +378,12 @@ footer {
   margin-bottom: -40px;
 }
 .arrow {
-background-image: url("/images/arrow-up-before.png");
-background-size: 80px auto;
-padding: 50px 54px;
-background-repeat: no-repeat;
-float: right;
-margin-top: 110px;
+  background-image: url("/images/arrow-up-before.png");
+  background-size: 80px auto;
+  padding: 50px 54px;
+  background-repeat: no-repeat;
+  float: right;
+  margin-top: 110px;
 }
 .arrow:hover {
   background-image: url("/images/arrow-up-after.png");
