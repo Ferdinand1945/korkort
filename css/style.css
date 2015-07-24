@@ -636,3 +636,22 @@ float: right;
 font-size: 18px;
   color: #707070;
 }
+
+.gray {
+background-color: #eee;
+
+}
+.green {
+background-color: #12BD90;
+}
+
+.blue {
+background-color: #2980B9;
+}
+
+.red {
+background-color: #C0392B;
+}
+.space-ud {
+margin: 14px 0;
+}
