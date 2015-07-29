@@ -608,11 +608,14 @@ color: #fff;
 padding: 65px;
 }
 .fix-top-menu {
-
 padding-top: 65px;
 }
 
-
+@media screen and(max-width: 1300px) {
+.space {
+    padding: 25px;
+}
+}
   .container-xl {
     width: 1160px;
   }
