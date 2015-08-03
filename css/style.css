@@ -615,10 +615,16 @@ padding-top: 65px;
 .space {
     padding: 25px;
 }
+}
+
+@media screen and (max-width: 800px) {
 .top-fix {
   margin-top: 100px;
 }
 }
+
+
+
 
   .container-xl {
     width: 1160px;
@@ -664,4 +670,10 @@ margin: 14px 0;
 }
 .top-fix {
 margin-top: 200px;
+}
+
+.user-text {
+color: #FFF;
+font-size: 21px;
+text-shadow: 4px 7px 15px rgba(13, 3, 5, 1);
 }
