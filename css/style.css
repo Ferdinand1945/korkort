@@ -445,7 +445,7 @@ overflow: hidden;
 }
 .menu-icon img {
 float: left;
-  width: 190px;
+  width: 140px;
   margin-left: 12px;
   padding-bottom: 10px;
 }
@@ -491,7 +491,6 @@ section.module.content {
   padding: 40px 0;
 }
 section.module.parallax {
-  height: 450px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -620,9 +619,6 @@ padding-top: 65px;
   .container-xl {
     width: 1160px;
   }
-  .menu-icon img {
-    width: 140px;
-}
 
 .left-fix {
 margin-left: 27px;
@@ -662,7 +658,7 @@ margin: 14px 0;
 .top-fix {
 margin-top: 100px;
 }
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1300px;){
   .top-fix {
   margin-top: 200px;
   }
