@@ -658,9 +658,9 @@ margin: 14px 0;
 .top-fix {
 margin-top: 100px;
 }
-@media screen and (min-width: 1300px;){
+@media screen and (min-width: 1300px){
   .top-fix {
-  margin-top: 200px;
+  margin-top: 150px;
   }
 }
 .user-text {
