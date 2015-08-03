@@ -164,6 +164,14 @@ body {
   border-color: #FFFFFF;
 }
 
+.shadows-under {
+  overflow: hidden;
+  width: 100% !important;
+  margin: 0px auto;
+  background: transparent url("/images/bottom-slide.png") no-repeat scroll 50% 130% / 100% auto;
+  padding: 0px 0px 0px;
+  z-index: 9;
+}
 .responsivebanner-container {
   overflow: hidden;
   max-height: 570px !important;
