@@ -668,3 +668,6 @@ color: #FFF;
 font-size: 21px;
 text-shadow: 4px 7px 15px rgba(13, 3, 5, 1);
 }
+.p-20 {
+padding: 20px;
+}
