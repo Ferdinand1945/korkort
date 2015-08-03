@@ -642,7 +642,7 @@ background-color: #eee;
 
 }
 .green {
-background-color: #12BD90;
+background-color: #2ED9AC;
 }
 
 .blue {
@@ -670,4 +670,7 @@ text-shadow: 4px 7px 15px rgba(13, 3, 5, 1);
 }
 .p-20 {
 padding: 20px;
+}
+.white-text {
+color: #fff;
 }
