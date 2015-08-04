@@ -689,7 +689,9 @@ color: #fff;
 .p-50 img {
 border: 2px solid #fff;
 }
-
+.m-7 {
+margin-top: 7px;
+}
 .user-logo {
 background-image: url("/images/user2.png");
 background-repeat: no-repeat;
