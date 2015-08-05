@@ -695,10 +695,22 @@ margin-top: 7px;
 .mtop-10 {
 margin-top: 10px; 
 }
+.mtop-0 {
+margin-top: 0px;
+}
 .user-logo {
 background-image: url("/images/user2.png");
 background-repeat: no-repeat;
 width: 300px;
 padding: 14px 50px;
 background-size: 40px;
+}
+
+.form {
+padding: 20px;
+  margin-left: 20px;
+
+}
+.form style[input="radio"] {
+display: block;
 }
