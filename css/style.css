@@ -692,6 +692,9 @@ border: 2px solid #fff;
 .m-7 {
 margin-top: 7px;
 }
+.mtop-10 {
+margin-top: 10px; 
+}
 .user-logo {
 background-image: url("/images/user2.png");
 background-repeat: no-repeat;
